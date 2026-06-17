@@ -1,9 +1,34 @@
 {
   "version": 2,
+  "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/backend/:path*",
       "destination": "http://proculocal.gt.tc/:path*"
+    },
+    {
+      "source": "/register",
+      "destination": "http://proculocal.gt.tc/register/"
+    },
+    {
+      "source": "/register/:path*",
+      "destination": "http://proculocal.gt.tc/register/:path*"
+    },
+    {
+      "source": "/login",
+      "destination": "http://proculocal.gt.tc/login/"
+    },
+    {
+      "source": "/login/:path*",
+      "destination": "http://proculocal.gt.tc/login/:path*"
+    },
+    {
+      "source": "/about-us",
+      "destination": "http://proculocal.gt.tc/about-us/"
+    },
+    {
+      "source": "/about-us/:path*",
+      "destination": "http://proculocal.gt.tc/about-us/:path*"
     }
   ]
 }
