@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/:path*",
-      "destination": "http://proculocal.gt.tc/:path*"
+      "source": "/backend/:path*",
+      "destination": "http://proculocal.gt.tc/:path*",
+      "permanent": false
     }
   ]
 }
